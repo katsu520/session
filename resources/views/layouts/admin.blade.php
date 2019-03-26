@@ -17,7 +17,7 @@
   </head>
   <body link="#ff0000" vlink="#008000" alink="#ffff00">
     <div id="app">
-      <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
+      <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
         <div class="container">
           <a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'laravel') }}</a>
           <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggel navigaton">

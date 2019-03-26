@@ -11,3 +11,10 @@
     </div>
   </div>
 @endsection
+
+<div class="row">
+  <div class="col-md-8 mx-auto">
+        <h1>Session</h1>
+        <p>-サーフィンを始めよう-</p>
+  </div>
+</div>
