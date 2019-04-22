@@ -1,47 +1,143 @@
 @charset "UTF-8";
+.body {
+  position: center;
+}
+
 h1 h2 h3 h4 {
   font-size: 8px;
 }
 
-header {
-  text-align: center;
-  width: 100%;
+#nav-logo img {
+  width: 130px;
+  height: 130px;
 }
 
-.box {
-  width: 100vw;
+.top {
+  position: relative;
+  margin-bottom: 2.5%;
+  width: 100%;
   height: auto;
   min-height: 100vh;
   background-size: cover;
-  background-position: center;
-  background-image: url("../images/1_s.png") no-repeat center center;
+  background-position: center center;
+  background-image: url("../images/1_s.png");
 }
 
-h2 {
-  text-align: right;
+.top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top p {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
 }
 
 .how {
-  text-align: left;
+  position: relative;
+  background-color: #6c272d;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
 }
 
-h3 {
-  text-align: left;
+.how dt {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.how dd {
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+
+.how p {
+  text-align: center;
 }
 
 .search {
-  text-align: right;
+  position: relative;
+  background-color: #000080;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
 }
 
-h4 {
+.search dt {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.search dd {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.search p {
   text-align: center;
 }
 
 .nami {
   text-align: center;
-  width: 500px;
-  height: 500px;
+  position: relative;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
   background-image: url("../images/4_s.png");
+}
+
+.nami::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nami p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.nami a {
+  position: absolute;
+  top: 55%;
+  left: 47%;
 }
 
 body {
@@ -53,13 +149,297 @@ body {
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
-  color: #67c5ff;
-  border: solid 2px #67c5ff;
+  color: #F5F5F5;
+  border: solid 2px #F5F5F5;
   border-radius: 3px;
   transition: 0.4s;
 }
 
 .btn-flat-border:hover {
-  background: #67c5ff;
+  background: #F5F5F5;
+  color: black;
+}
+
+footer {
+  text-align: center;
+}
+
+hr .home {
+  width: 100%;
+}
+
+.how-head {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.item-title, .rule {
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.item1 {
+  position: relative;
+  background-color: #A9A9A9;
+  width: 600px;
+  height: 600px;
+  display: block;
   color: white;
+}
+
+.item1 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.item1 dd {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  left: 10%;
+}
+
+.item2 {
+  position: relative;
+  background-color: #708090;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.item2 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.item2 dd {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+
+.item3 {
+  position: relative;
+  background-color: #4682B4;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.item3 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.item3 dd {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+
+.item4 {
+  position: relative;
+  background-color: #4169E1;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.item4 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.item4 dd {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  left: 10%;
+}
+
+.item5 {
+  position: relative;
+  background-color: #1E90FF;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.item5 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.item5 dd {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  left: 15%;
+}
+
+.item6 {
+  position: relative;
+  background-color: #6A5ACD;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.item6 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.item6 dd {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  left: 10%;
+}
+
+.rule1 {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/13_s.jpg");
+}
+
+.rule1 dt {
+  font-size: 20px;
+}
+
+.rule1 dt, dd {
+  color: white;
+}
+
+.reference {
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.reference1 {
+  position: relative;
+  background-color: #DEB887;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.reference1 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 40%;
+}
+
+.reference1 dd {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  left: 10%;
+}
+
+.reference2 {
+  position: relative;
+  background-color: #F4A460;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.reference2 dt {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 35%;
+}
+
+.reference2 dd {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  left: 25%;
+}
+
+.nami-head {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.zyouhou1 {
+  position: relative;
+  background-color: #008B8B;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.zyouhou1 dt {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.zyouhou1 dd {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+
+.zyouhou2 {
+  position: relative;
+  background-color: #D2691E;
+  width: 600px;
+  height: 600px;
+  display: block;
+  color: white;
+}
+
+.zyouhou2 dt {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.zyouhou2 dd {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  right: 25%;
+}
+
+.search-title {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.pages {
+  position: center;
 }
