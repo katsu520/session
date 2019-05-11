@@ -12,7 +12,7 @@
             <hr width="50%" noshade>
             <p>- サーフィンをするに至って必要なアイテムやルール・マナーを知ろう -</p>
           </div>
-          <h2 class="item-title">~ 必要なアイテム ~</h2>
+          <h2 class="item-title"><  必要なアイテム  ></h2>
           <div class="col-xs-12 col-lg-12">
             <div class="row">
               <div class="item1">
@@ -72,7 +72,7 @@
               </div>
             </div>
           </div>
-          <h2 class="rule">~ ルール・マナー ~</h2>
+          <h2 class="rule"><  ルール・マナー  ></h2>
           <div class="rule1">
             <div class="col-xs-12 col-lg-5">
               <div class="row">
@@ -109,13 +109,13 @@
               </div>
             </div>
           </div>
-          <h2 class="reference">~ 参考 ~</h2>
+          <h2 class="reference"><  参考  ></h2>
           <div class="col-xs-12 col-lg-12">
             <div class="row">
               <div class="reference1">
                 <dt>SURFIN LIFE</dt>
                 <dd>サーフィン用語集やテクニックなど初心者の為の基本が解説されています!<br>サーフィンに関するニュースなども載っているので是非チェックしてみましょう!</dd>
-                <a href="https://surfinglife.jp/category/technic/" class="btn-flat-border">Check</a>
+                <a href="https://surfinglife.jp/category/technic/" class="btn-flat-border" style="margin-top: 360px; margin-left: 265px;">Check</a>
               </div>
               <img src="{{ asset('/images/14_s.jpg')}}" width="600px">
             </div>
@@ -126,14 +126,10 @@
               <div class="reference2">
                 <dt>ムラサキサポーツ</dt>
                 <dd>サーフィンに必要なアイテムが豊富に揃っています!<br>必要な物を揃えてサーフィンに出掛けましょう!</dd>
-                <a href="https://www.murasaki.jp/category/SURFING/" class="btn-flat-border">Check</a>
+                <a href="https://www.murasaki.jp/category/SURFING/" class="btn-flat-border" style="margin-top: 350px; margin-left: 250px;">Check</a>
               </div>
             </div>
           </div>
-          <footer>
-            <hr class="home" noshade>
-            <span class="copyright">©︎session</span>
-          </footer>
         </body>
       </div>
     </div>

@@ -34,5 +34,9 @@
         @yield('content')
       </main>
     </div>
+    <footer>
+      <hr class="home" noshade>
+      <small class="copyright">©️ 2019 session</small>
+    </footer>
   </body>
 </html>

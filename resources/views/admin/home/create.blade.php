@@ -55,10 +55,6 @@
               </div>
             </div>
           </div>
-          <footer>
-            <hr class="home" noshade>
-            <span class="copyright">©︎session</span>
-          </footer>
         </body>
       </div>
     </div>

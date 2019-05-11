@@ -6,16 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Shop extends Model
 {
-    //
-    protected $fillable = ['user_id', 'name'];
+    //作成日時
+    const CREATED_AT = null;
+    //更新日医
+    const UPDATED_AT = null;
+    //紐ずけするテーブル名を指定
+    protected $table ='shops';
 
-    public function user()
-    {
-      return $this->belongsTo(User::class);
-    }
+    //createメソッドを使用する場合はfillableかguardedを指定する必要がある
+    protected $fillable = ['name', 'address', 'hp'];
+    //fillable->ホワイトリスト的に、guarded->ブラックリスト的に
 
-    public function keywords()
-    {
-      return $this->hasMany(Keyword::class);
-    }
 }

@@ -125,7 +125,7 @@ h1 h2 h3 h4 {
 
 .nami p {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -226,7 +226,7 @@ hr .home{
   position: absolute;
   font-size: 20px;
   top: 30%;
-  left: 40%;
+  left: 35%;
 }
 
 .item2 dd {
@@ -317,7 +317,7 @@ hr .home{
   position: absolute;
   font-size: 20px;
   top: 30%;
-  left: 40%;
+  left: 35%;
 }
 
 .item6 dd {
@@ -426,8 +426,8 @@ hr .home{
 
 .zyouhou1 dd {
   position: absolute;
-  top: 45%;
-  left: 10%;
+  top: 40%;
+  left: 20%;
 }
 
 .zyouhou2 {
@@ -442,7 +442,7 @@ hr .home{
 .zyouhou2 dt {
   position: absolute;
   top: 30%;
-  left: 40%;
+  left: 35%;
 }
 
 .zyouhou2 dd {
@@ -456,7 +456,18 @@ hr .home{
 
 
 //search create.blade.php
-.search-title {
+.search-head {
   text-align: center;
   margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.paginate {
+  text-align: center;
+  margin: 5% auto;
+}
+
+.btn-default{
+  border: 1px solid;
+
 }

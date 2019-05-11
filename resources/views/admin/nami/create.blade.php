@@ -18,9 +18,9 @@
                   <dt>波情報　サーフィン　BCM</dt>
                   <dd>
                     画像や動画で全国の波の様子を確認する事ができます。<br>
-                    適したコンディション、ブレイクポイントや波数など安全さの情報がわかります。<br>
+                    適したコンディション、ブレイクポイントや波数など<br>安全さの情報がわかります。<br>
                     解説やレポートがあるので初心者の方でも安心です！<br>
-                    <a href="https://www.bcm-surfpatrol.com/weather.html" class="btn-flat-border">Check</a>
+                    <a href="https://www.bcm-surfpatrol.com/weather.html" class="btn-flat-border" style="margin-top: 10%; margin-left: 125px;">Check</a>
                   </dd>
                 </div>
                 <img src="{{ asset('/images/11_s.jpg') }}" width="600px">
@@ -34,15 +34,11 @@
                   <dd>
                     全国の海の天気を確認する事ができます。<br>
                     日付ごとに波の大きさや潮の満ち引き、紫外線の強さなどを数値で分かりやすく確認する事ができます。<br>
-                    <a href="https://tenki.jp/" class="btn-flat-border">Check</a>
+                    <a href="https://tenki.jp/" class="btn-flat-border" style="margin-top: 10%; margin-left: 100px;">Check</a>
                   </dd>
                 </div>
               </div>
             </div>
-            <footer>
-              <hr class="home" noshade>
-              <span class="copyright">©︎session</span>
-            </footer>
           </body>
         </div>
       </div>
