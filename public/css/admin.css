@@ -1,21 +1,32 @@
 @charset "UTF-8";
-.body {
+body {
+  font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", Meiryo, Osaka, "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif;
+  color: #000;
   position: center;
+  background-color: #EEEEEE;
 }
 
 h1 h2 h3 h4 {
   font-size: 8px;
 }
 
-#nav-logo img {
-  width: 130px;
-  height: 130px;
+.gnav__menu {
+  display: flex;
+}
+
+.gnav__menu__item {
+  margin-left: 20px;
+}
+
+.gnav__menu__item a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .top {
   position: relative;
-  margin-bottom: 2.5%;
   width: 100%;
+  margin-top: 5%;
   height: auto;
   min-height: 100vh;
   background-size: cover;
@@ -50,7 +61,7 @@ h1 h2 h3 h4 {
 .how {
   position: relative;
   background-color: #6c272d;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -75,7 +86,7 @@ h1 h2 h3 h4 {
 .search {
   position: relative;
   background-color: #000080;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -84,7 +95,7 @@ h1 h2 h3 h4 {
 .search dt {
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 33%;
 }
 
 .search dd {
@@ -100,8 +111,6 @@ h1 h2 h3 h4 {
 .nami {
   text-align: center;
   position: relative;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
   width: 100%;
   height: auto;
   min-height: 100vh;
@@ -140,11 +149,6 @@ h1 h2 h3 h4 {
   left: 47%;
 }
 
-body {
-  font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", Meiryo, Osaka, "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif;
-  color: #000;
-}
-
 .btn-flat-border {
   display: inline-block;
   padding: 0.3em 1em;
@@ -164,26 +168,41 @@ footer {
   text-align: center;
 }
 
-hr .home {
+.movie {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.movie iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.footer-line {
   width: 100%;
 }
 
 .how-head {
   text-align: center;
   margin-top: 10%;
+  margin-left: 30%;
 }
 
 .item-title, .rule {
   font-size: 20px;
-  margin-top: 10%;
+  margin-top: 20%;
   margin-bottom: 5%;
-  text-align: center;
+  margin-left: 43%;
 }
 
 .item1 {
   position: relative;
   background-color: #A9A9A9;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -206,7 +225,7 @@ hr .home {
 .item2 {
   position: relative;
   background-color: #708090;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -216,7 +235,7 @@ hr .home {
   position: absolute;
   font-size: 20px;
   top: 30%;
-  left: 35%;
+  left: 40%;
 }
 
 .item2 dd {
@@ -228,7 +247,7 @@ hr .home {
 .item3 {
   position: relative;
   background-color: #4682B4;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -238,19 +257,19 @@ hr .home {
   position: absolute;
   font-size: 20px;
   top: 30%;
-  left: 40%;
+  left: 38%;
 }
 
 .item3 dd {
   position: absolute;
   top: 45%;
-  left: 20%;
+  left: 10%;
 }
 
 .item4 {
   position: relative;
   background-color: #4169E1;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -273,7 +292,7 @@ hr .home {
 .item5 {
   position: relative;
   background-color: #1E90FF;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -290,13 +309,13 @@ hr .home {
   position: absolute;
   width: 500px;
   top: 45%;
-  left: 15%;
+  left: 10%;
 }
 
 .item6 {
   position: relative;
   background-color: #6A5ACD;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -316,9 +335,14 @@ hr .home {
   left: 10%;
 }
 
-.rule1 {
+.contaier {
+  display: grid;
+  grid-template: 30px 30px 30px 30px 30px/50px 50px 50px 50px 50px;
+}
+
+.rule-item {
   width: 100%;
-  height: auto;
+  height: 900px;
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -327,23 +351,65 @@ hr .home {
 
 .rule1 dt {
   font-size: 20px;
+  padding-top: 50px;
 }
 
 .rule1 dt, dd {
   color: white;
+  padding-left: 50px;
+}
+
+.rule2 dt {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.rule2 dt, dd {
+  color: white;
+  padding-left: 50px;
+}
+
+.rule3 dt {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.rule3 dt, dd {
+  color: white;
+  padding-left: 50px;
+}
+
+.rule4 dt {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.rule4 dt, dd {
+  color: white;
+  padding-left: 50px;
+}
+
+.rule5 dt {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.rule5 dt, dd {
+  color: white;
+  padding-left: 50px;
 }
 
 .reference {
   font-size: 20px;
   margin-top: 10%;
   margin-bottom: 5%;
-  text-align: center;
+  margin-left: 47%;
 }
 
 .reference1 {
   position: relative;
   background-color: #DEB887;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -366,7 +432,7 @@ hr .home {
 .reference2 {
   position: relative;
   background-color: #F4A460;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -376,26 +442,28 @@ hr .home {
   position: absolute;
   font-size: 20px;
   top: 30%;
-  left: 35%;
+  left: 38%;
 }
 
 .reference2 dd {
   position: absolute;
   width: 500px;
   top: 45%;
-  left: 25%;
+  left: 20%;
 }
 
 .nami-head {
   text-align: center;
   margin-top: 10%;
   margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .zyouhou1 {
   position: relative;
   background-color: #008B8B;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -404,19 +472,19 @@ hr .home {
 .zyouhou1 dt {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 35%;
 }
 
 .zyouhou1 dd {
   position: absolute;
   top: 40%;
-  left: 20%;
+  left: 15%;
 }
 
 .zyouhou2 {
   position: relative;
   background-color: #D2691E;
-  width: 600px;
+  width: 50%;
   height: 600px;
   display: block;
   color: white;
@@ -425,14 +493,13 @@ hr .home {
 .zyouhou2 dt {
   position: absolute;
   top: 30%;
-  left: 35%;
+  left: 38%;
 }
 
 .zyouhou2 dd {
   position: absolute;
   top: 40%;
-  left: 25%;
-  right: 25%;
+  left: 15%;
 }
 
 .search-head {

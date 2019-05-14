@@ -49031,7 +49031,25 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app'
-});
+}); // 「ページトップに戻る」ボタンの表示/非表示、機能
+
+function activateScrollToTopButton() {
+  //
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 20) {
+      $('#scrollToPageTopButtonBox').fadeIn();
+    } else {
+      $('#scrollToPageTopButtonBox').fadeOut();
+    }
+  });
+  $('#scrollToPageTopButton').on('click', function () {
+    $('html, body').stop().animate({
+      scrollTop: $('body').offset().top
+    }, 400);
+  });
+}
+
+activateScrollToTopButton();
 
 /***/ }),
 
